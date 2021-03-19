@@ -13,4 +13,5 @@ describe('Testando Página', () => {
         const { getByText, getByTestId } = render(<App/>);
         expect(getByText('Bem Vindo ao Site!')).toBeInTheDocument();
     });
+    
 })
