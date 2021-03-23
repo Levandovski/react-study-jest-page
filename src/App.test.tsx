@@ -96,6 +96,8 @@ describe('Teste da página de login', () => {
     })
 
     it("Testando método logar completo", async () => {
+
+        
         const { getByText, getByTestId } = render(<App/>);
 
 
@@ -151,7 +153,7 @@ describe('Teste da página de login', () => {
 
        fireEvent.click(buttonLogar);
 
-       
+
 
     })
     
