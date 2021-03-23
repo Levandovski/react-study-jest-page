@@ -1,5 +1,4 @@
-interface HomeInterface {
+export interface HomeInterface {
     chidren: any,   
 }
 
-export default HomeInterface;
